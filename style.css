@@ -1,0 +1,36 @@
+.col-12{
+    background-color: rgb(255, 244, 244);
+}
+.col-12:hover,
+.col:hover{
+    animation:aside 3s 1;
+    border-radius: 15%;
+}
+@keyframes aside{
+    0%{
+        color: #dab30700;
+        text-shadow: none;
+        
+        
+    }
+    30%{
+        background-color: aqua;
+        color:#09090941 ;
+
+    }
+    90%{
+        background-color: rgb(255, 0, 111);
+        color:#06060641 ;
+
+    }
+    
+}
+.my-5:hover{
+    animation: footer 2s 1;
+}
+@keyframes footer{
+    30%{
+       transform: translateY(30%);
+        background-color: aqua;
+    }
+}
